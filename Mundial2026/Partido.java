@@ -24,8 +24,8 @@ public class Partido implements Jugable {
           @Override
           public void jugarPartido()  {
         	  // resultado de ejemplo
-        	  golesLocal = (int) (Math.random() * 5);
-        	  golesVisitante = (int) (Math.random() * 5);
+        	  golesLocal = (int) (Math.random() * 6);
+        	  golesVisitante = (int) (Math.random() * 6);
         	  
           }
           
