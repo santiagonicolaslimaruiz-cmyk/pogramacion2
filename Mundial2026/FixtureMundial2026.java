@@ -12,10 +12,10 @@ public class FixtureMundial2026 {
 			);
 		
 		Partido partido2 = new Partido(
-				"Argentina",
-				"Argelia",
+				"Irak",
+				"Noruega",
 				"16/06/2026",
-				"Kansas City"
+				"Foxborough"
 				);
 				
 		 Partido partido3 = new Partido(
@@ -24,15 +24,38 @@ public class FixtureMundial2026 {
 				 "17/06/2026",
 				 "Houston"
 				 );
+		 Partido partido4 = new Partido(
+				 "Mexico",
+				 "Corea del Sur",
+				 "18/06/2026",
+				 "Zapopan"
+				 );
+		 Partido partido5 = new Partido(
+				 "Brasil",
+				 "Haití",
+				 "19/06/2026",
+				 "Filadelfia"
+				 );
+		 Partido partido6 = new Partido(
+				 "Ecuador",
+				 "Curazao",
+				 "20/06/2026",
+				 "Kansas City"
+				 );
 		 
 		 partido1.jugarPartido();
 		 partido2.jugarPartido();
 		 partido3.jugarPartido();
+		 partido4.jugarPartido();
+		 partido5.jugarPartido();
+		 partido6.jugarPartido();
 		 
 		 partido1.mostrarResultado();
 		 partido2.mostrarResultado();
 		 partido3.mostrarResultado();
-		 
+		 partido4.mostrarResultado();
+		 partido5.mostrarResultado();
+		 partido6.mostrarResultado();
 		}
 	}
 
